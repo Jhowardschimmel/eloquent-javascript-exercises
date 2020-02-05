@@ -14,3 +14,7 @@ for (let i = 0; i < 7; i++) {
     triangleString+="#";
     console.log(triangleString);   
 }
+
+for (let line = "#"; line.length <= 7; line += "#") {
+    console.log(line);
+}
